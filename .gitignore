@@ -10,3 +10,5 @@ wheels/
 .venv
 .env
 tmp*
+
+src/ragas_typhoon/data
