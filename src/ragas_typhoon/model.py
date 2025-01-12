@@ -29,7 +29,7 @@ def init_llm(t=None):
 @cache
 def init_embed(t=None):
     if t == "o":
-        return OpenAIEmbeddings()
+        return OpenAIEmbeddings(api_key=OPENAI_KEY)
     
     # return SentenceTransformer('all-MiniLM-L6-v2')
     return HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
