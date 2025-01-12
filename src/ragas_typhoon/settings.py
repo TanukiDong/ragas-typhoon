@@ -7,4 +7,4 @@ OPENAI_KEY = os.getenv("OPENAI_KEY", "")
 
 TYPHOON_API_KEY = os.getenv("TYPHOON_API_KEY", "")
 
-RAGAS_API_KEY = os.getenv("RAGAS_API_KEY", "")
+RAGAS_APP_TOKEN = os.getenv("RAGAS_APP_TOKEN", "")
