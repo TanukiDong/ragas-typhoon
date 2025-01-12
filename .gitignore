@@ -12,3 +12,4 @@ wheels/
 tmp*
 
 src/ragas_typhoon/data
+chroma_db
